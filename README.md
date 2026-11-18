@@ -1,16 +1,63 @@
-# FAKE-NEWS-DETECTION
+# Fake News Detection Using Machine Learning
+
+## Project Description
+This project uses Machine Learning and Natural Language Processing to classify news articles as Fake or Real.
+
+## Problem Statement
+Fake news spreads rapidly through online platforms and can mislead people. This project aims to automatically classify news articles using machine learning.
+
+## Objectives
+- Detect fake and real news.
+- Preprocess news text.
+- Apply TF-IDF vectorization.
+- Train a Logistic Regression model.
+- Evaluate model performance.
+- Predict news categories.
+
 ## Dataset
+Fake and Real News Dataset from Kaggle.
 
-The datasets used in this project are stored in Google Drive because of their large file size.
+https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
 
-### Download Datasets
+Dataset files:
+- Fake.csv
+- True.csv
 
-- [Download Fake.csv](https://drive.google.com/file/d/17iCPehEefW3fawl0i24Gs6rWrx6UUf15/view?usp=sharing)
-- [Download True.csv](https://drive.google.com/file/d/1MGGYa2e-jq9T6l7V5hlVpa7JP3JpmX-c/view?usp=sharing)
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
 
-### Dataset Description
+## Algorithm
+- TF-IDF Vectorization
+- Logistic Regression
 
-- Fake.csv - Contains fake news articles.
-- True.csv - Contains real news articles.
+## Project Workflow
+1. Dataset collection
+2. Data preprocessing
+3. TF-IDF feature extraction
+4. Training and testing
+5. Model evaluation
+6. News prediction
 
-Download both datasets and place them inside the project folder before running the code.
+## Results
+Add actual accuracy, precision, recall, F1-score and confusion matrix after running the notebook.
+
+## How to Run
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run the notebook Fake_News_Detection.ipynb using Google Colab.
+
+## Conclusion
+The project demonstrates how machine learning can classify news articles as Fake or Real based on textual patterns.
+
+## Team Members
+- Member 1: M.GOUTHAMI(25RBCSE0002)
+- Member 2: K.MAHESHWARI(25RBAID0004)
+- Member 3: J.MANASA(25RBAIM0063)
+- Member 4: C,NEHASRI(25RBAIM0062)
